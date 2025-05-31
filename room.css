@@ -1,0 +1,155 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/b8bc23cebcc5b5451a903e05d0f820ad5ba05b45.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+
+.navbar {
+    background-color: #19033f;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.navbar h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.navbar nav ul  {
+    list-style-type: none;
+    display: flex;
+    margin: 0 40px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* white with opacity */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 0 25px 0 25px;
+    width: 60%;
+    opacity: 0.9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.admission-form .section {
+    margin-bottom: 20px;
+}
+
+.admission-form .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /* Makes label a block-level element */
+    text-align: center; /* Centers the label text */
+    font-size: 16px; /* Optional: Adjust the font size */
+    margin-bottom: 8px; /* Adds space between the label and the input field */
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button.submit-btn {
+    background: linear-gradient(45deg, #007bff, #00b7ff);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(3, 7, 82, 0.849);
+    color: white;
+}
+
+
+.section{
+    color: #0de69a; 
+    font-size: 16px;
+}
+
+.section h2{
+    /* text-align: center; */
+    color: #ff0000;
+}
+
+
+Hdhdbbdhdh
+Ka ho
+Tohafa chahi
